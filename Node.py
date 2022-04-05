@@ -33,3 +33,5 @@ for i  in range(n):
 for i in range(n):
     node[i].print_node()
 
+
+
