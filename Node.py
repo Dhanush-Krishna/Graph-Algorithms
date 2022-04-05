@@ -10,7 +10,7 @@ class Node:
         print(self.id,self.adj_list)
 
     def add_adj(self,n):
-        self.adj_list.append(n)
+        self.adj_list.append(n) #hfhfh
 
 n1=Node(1)
 n2=Node(2)
