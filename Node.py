@@ -22,3 +22,14 @@ n1.add_adj(n3.id)
 n1.print_node()
 
 
+#creating a list of nodes
+
+n=int(input())
+node=[]
+for i  in range(n):
+    nd=Node(i)
+    node.append(nd)
+
+for i in range(n):
+    node[i].print_node()
+
