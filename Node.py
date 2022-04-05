@@ -14,7 +14,10 @@ class Node:
 
 n1=Node(1)
 n2=Node(2)
+n3=Node(3)
+
 n1.add_adj(n2.id)
+n1.add_adj(n3.id)
 
 n1.print_node()
 
